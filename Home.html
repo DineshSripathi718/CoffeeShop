@@ -17,8 +17,11 @@
             <ul class="navbar-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Products</a></li>
-                <li><a href="#">Cart</a></li>
+                <li><a href="#">Cart <span id="items-in-cart"></span></a></li>
                 <li><a href="#">Login</a></li>
+            </ul>
+            <ul class="hamburger">
+                <i class="fa-solid fa-bars"></i>
             </ul>
         </nav>
     </header>
@@ -27,26 +30,244 @@
         <section class="products">
             <div class="card">
                 <div class="card-image">
-                    <img src="" alt="">
+                    <img src="./assets/images/product1.jpg" alt="product-pic">
                 </div>
                 <div class="card-info">
                     <div class="card-title">
-
+                        Coffee
                     </div>
                     <div class="card-description">
-
+                        A warm, inviting cup of comfort. Medium-bodied and smooth
                     </div>
                     <div class="price">
-                        <span>$</span>
-                        <span class="card-price"></span>
+                        <span class="discount">30% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>150</p>
+                        
                     </div>
                     <div class="card-button">
-                        <p class="current-price"></p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product2.jpg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Latte
+                    </div>
+                    <div class="card-description">
+                        A delicious and steamed milk, with a thin layer foam.
+                    </div>
+                    <div class="price">
+                        <span class="discount">30% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>150</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product3.jpg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Customized Coffee
+                    </div>
+                    <div class="card-description">
+                        A personalized coffee that suits your business
+                    </div>
+                    <div class="price">
+                        <span class="discount">30% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>150</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product4.jpg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Nature Coffee
+                    </div>
+                    <div class="card-description">
+                        A hot cup of nature coffee with the nature 
+                    </div>
+                    <div class="price">
+                        <span class="discount">30% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>150</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product5.webp" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Espresso shots
+                    </div>
+                    <div class="card-description">
+                        Shots of espresso hard press to extract maximum coffee
+                    </div>
+                    <div class="price">
+                        <span class="discount">30% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>150</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product6.jpeg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Espresso
+                    </div>
+                    <div class="card-description">
+                        espresso shot on a sleek, black granite countertop
+                    </div>
+                    <div class="price">
+                        <span class="discount">5% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>196</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product7.jpg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Cappuccino
+                    </div>
+                    <div class="card-description">
+                        A warm, golden-lit latte art design on a velvety-smooth cappuccino, topped
+                    </div>
+                    <div class="price">
+                        <span class="discount">10% OFF</span>
+                        <span class="card-price-discount">$200</span>
+                        <p class="current-price"><span>$</span>170</p>
+                        
+                    </div>
+                    <div class="card-button">
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="./assets/images/product8.jpg" alt="product-pic">
+                </div>
+                <div class="card-info">
+                    <div class="card-title">
+                        Cold Coffee
+                    </div>
+                    <div class="card-description">
+                        A refreshing summer coffee setup, featuring cold brew, ice cubes
+                    </div>
+                    <div class="price">
+                        <span class="discount">50% OFF</span>
+                        <span class="card-price-discount">$400</span>
+                        <p class="current-price"><span>$</span>200</p>
+                        
+                    </div>
+                    <div class="card-button">
                         <button class="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Nature's Coffee was founded by Ram Sethu, a coffee enthusiast with a passion for environmental conservation. Our team shares a love for nature, great coffee, and the joy of bringing people together.</p>
+        </section>
+
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    Home</a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    Privacy Policy</a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    Contact</a></li>
+                <li><a href="#">
+                    <i class="fa-regular fa-file-lines"></i>
+                    Blog</a></li>
+            </ul>
+        </section>
+
+        <section class="company">
+            <H2>Our Responsibility</H2>
+            <ul>
+                <li><a href="#">
+                    <i class="fa-solid fa-people-group"></i>
+                    Community</a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-user"></i>
+                    Ethical Sourcing</a></li>
+                <li><a href="#">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    Careers</a></li>
+            </ul>
+        </section>
+
+        <section class="social-media">
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram</a></li>
+                <li><a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn</a></li>
+            </ul>
+        </section>
+
+        <section class="web-rights">
+            <p>Web Accessiblity | Privacy Statement | Terms of Use Contact Us
+                © 2024 Indian Coffee Company. All rights reserved.</p>
+        </section>
+    </footer>
 </body>
+<script src="https://kit.fontawesome.com/63187b3c56.js" crossorigin="anonymous"></script>
+<script src="./scripts/home.js"></script>
 </html>
